@@ -5,6 +5,7 @@
 		<Option title="Inluppg2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="src\;include\;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/Inluppg2" prefix_auto="1" extension_auto="1" />
@@ -12,8 +13,8 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -34,12 +35,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/SortedVector.h" />
-		<Unit filename="include/polygon.h" />
+		<Unit filename="include/SortVector.h" />
+		<Unit filename="include/polygon.h">
+			<Option virtualFolder="src/" />
+		</Unit>
 		<Unit filename="include/vertex.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Polygon.cpp" />
-		<Unit filename="src/SortedVector.cpp" />
 		<Unit filename="src/Vertex.cpp" />
 		<Extensions>
 			<code_completion />

@@ -1,5 +1,6 @@
 #ifndef VERTEX_H
 #define VERTEX_H
+#include <ostream>
 
 
 class Vertex
@@ -10,6 +11,7 @@ class Vertex
         ~Vertex();
         int x;
         int y;
+        friend std::ostream& operator<<( std::ostream& out, const Vertex& vec );
     protected:
     private:
 

@@ -12,17 +12,42 @@
 1391545315 source:c:\users\daniel\documents\utv\uu10p\inl1\vertex.cpp
 	"vertex.h"
 
-1391719300 source:c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\main.cpp
+1392035369 source:c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\main.cpp
 	<iostream>
-	"polygon.h"
-	"sortedvector.h"
+	<ostream>
+	"include\polygon.h"
+	"include\sortvector.h"
 
-1391889895 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\polygon.h
+1392035825 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\polygon.h
 	"vertex.h"
 
-1391545294 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\vertex.h
+1392031866 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\vertex.h
+	<iostream>
 
 1392019137 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\sortedvector.h
 	<stdexcept>
 	<iostream>
+
+1392035488 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\sortvector.h
+	<stdexcept>
+	<iostream>
+	<ostream>
+
+1392035843 source:c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\src\polygon.cpp
+	"polygon.h"
+	<cmath>
+	<iostream>
+
+1392029990 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\src\polygon.h
+	<ostream>
+	<iostream>
+	"vertex.h"
+
+1392030744 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\src\vertex.h
+	<ostream>
+
+1392031866 source:c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\src\vertex.cpp
+	"vertex.h"
+	<iostream>
+	<ostream>
 

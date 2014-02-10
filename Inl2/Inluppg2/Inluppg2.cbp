@@ -36,9 +36,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/SortVector.h" />
-		<Unit filename="include/polygon.h">
-			<Option virtualFolder="src/" />
-		</Unit>
+		<Unit filename="include/polygon.h" />
 		<Unit filename="include/vertex.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Polygon.cpp" />

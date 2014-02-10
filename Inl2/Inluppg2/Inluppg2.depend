@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1391717668 source:c:\users\daniel\documents\utv\uu10p\inl1\polygon.cpp
+	"polygon.h"
+	<cmath>
+	<iostream>
+
+1391714495 c:\users\daniel\documents\utv\uu10p\inl1\polygon.h
+	"vertex.h"
+
+1391545294 c:\users\daniel\documents\utv\uu10p\inl1\vertex.h
+
+1391545315 source:c:\users\daniel\documents\utv\uu10p\inl1\vertex.cpp
+	"vertex.h"
+
+1391719300 source:c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\main.cpp
+	<iostream>
+	"polygon.h"
+	"sortedvector.h"
+
+1391889895 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\polygon.h
+	"vertex.h"
+
+1391545294 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\vertex.h
+
+1392019137 c:\users\daniel\documents\utv\uu10p\inl2\inluppg2\include\sortedvector.h
+	<stdexcept>
+	<iostream>
+

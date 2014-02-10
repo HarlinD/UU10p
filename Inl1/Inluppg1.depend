@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1391716280 source:c:\users\daniel\documents\utv\uu10p\inl1\main.cpp
+	<iostream>
+	"vertex.h"
+	"polygon.h"
+
+1391545294 c:\users\daniel\documents\utv\uu10p\inl1\vertex.h
+
+1391714495 c:\users\daniel\documents\utv\uu10p\inl1\polygon.h
+	"vertex.h"
+
+1391716223 source:c:\users\daniel\documents\utv\uu10p\inl1\polygon.cpp
+	"polygon.h"
+	<cmath>
+	<iostream>
+
+1391545315 source:c:\users\daniel\documents\utv\uu10p\inl1\vertex.cpp
+	"vertex.h"
+
